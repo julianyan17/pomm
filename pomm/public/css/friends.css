@@ -1,0 +1,59 @@
+body {
+    background-color:#CAF0F8;
+}
+
+.pfp {
+    height: 100px;
+    width: 100px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #42b37f;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+}
+
+#friend1  span {
+    background-color: #ef4040;
+}
+
+a {
+    align-items: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.navbar {
+  position: fixed; 
+  bottom: 0; 
+  right: 0;
+  margin-bottom: -10px;
+  background-color: white;
+  padding-top: 0px;
+}
+
+.icon-pic {
+    width: 35%;
+}
+
+.icon-btn {
+    padding-top: 1vh;
+    outline: 1px solid black;
+}
+
+#infoDialog {
+    width: 65%;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 10px;
+}
+  
+#infoDialogButton {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}

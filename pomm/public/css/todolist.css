@@ -1,0 +1,135 @@
+body {
+  background-color: #CAF0F8;
+  margin-bottom: 20%;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+#list-bg {
+  background-color: #C4C4C4;
+  border-radius: 20px;
+  padding: 10px;
+  max-height: 500px;
+  margin-top: 5%;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0px;
+  padding: 0;
+  max-height: 390px;
+  overflow: scroll;
+}
+
+li {
+  border-radius: 15px;
+  margin-bottom: 5px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 8px 8px 8px 26px;
+  list-style-type: none;
+  background: #EBEBEB;
+  font-size: 18px;
+  transition: 0.2s;
+  width: 95%;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 3%;
+  top: 0;
+  padding: 8px 16px;
+  display: block;
+}
+
+.list-button {
+  padding-left: 10px;
+  text-align: right;
+}
+
+
+/* Style the header */
+.header {
+  /*background-color: #f44336;*/
+  padding: 30px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  border-color: black;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+#add-btn {
+  padding: 10px;
+  /* width: 25%; */
+  width: 30%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid black;
+}
+
+#add-btn:hover {
+  background-color: #bbb;
+}
+
+#task-input {
+  border-radius: 5px 0 0 5px;
+  border: 1px solid black;
+  width: 40vw;
+}
+
+.add-task {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  align-items: right;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#validDialog, #fullDialog {
+  width: 65%;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#validConfirm, #fullConfirm {
+  border-radius: 10px;
+  background-color: #EBEBEB;
+  text-decoration: none;
+  color: black;
+}

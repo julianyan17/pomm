@@ -1,0 +1,144 @@
+* {
+    font-family: 'Gaegu', cursive;
+}
+
+
+body {
+    padding: 10%;
+    margin-top: 5%;
+    background-color:#CAF0F8;
+}
+
+.progress {
+    margin-bottom: 5vh;
+}
+
+#pfp {
+    height: 45vw;
+    width: 45vw;
+    margin-bottom: 10%;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 5%;
+    text-shadow: none;
+}
+
+h3 {
+    background-color: #EBEBEB;
+    padding: 5%;
+    padding-bottom: 0;
+    border-radius: 10px;
+}
+
+#stats {
+    margin-bottom: 9%;
+}
+
+#charts {
+    padding: 2% 10%;
+    height: 60vw;
+}
+
+input {
+    visibility: hidden;
+}
+
+#toggle {
+    padding: 5% 10%;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #42b37f;
+    position: absolute;
+    top: 160px;
+    left: 210px;
+}
+
+a {
+    align-items: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.work-button {
+    font-size: 25px;
+    padding-top: 0vh;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+    background-color: #EBEBEB;
+    color: black;
+    border: 2px solid black;
+}
+
+.change-profile {
+    margin-bottom: 3vh;
+    background-color: #EBEBEB;
+}
+  
+.round {
+    border-radius: 50%;
+}
+
+#logout {
+    background-color: #FC6B6B;
+}
+
+.navbar {
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+    margin-bottom: -10px;
+    background-color: white;
+    padding-top: 0px;
+}
+
+.icon-pic {
+    width: 35%;
+}
+
+.icon-btn {
+    padding-top: 1vh;
+    outline: 1px solid black;
+}
+
+#info-btn {
+    background-color: #CAF0F8;
+}
+
+.progress {
+    background-color: white;
+}
+
+#infoDialog {
+    width: 65%;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 10px;
+  }
+
+#info-close {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+}
+
+#successDialog {
+    width: 65%;
+    position: absolute;
+    z-index: 1000;
+    border-radius: 10px;
+  }
+  
+  #successConfirm {
+    border-radius: 10px;
+    background-color: #EBEBEB;
+    text-decoration: none;
+    color: black;
+  }

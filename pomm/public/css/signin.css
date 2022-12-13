@@ -1,0 +1,109 @@
+* {
+    font-family: 'Gaegu', cursive;
+}
+
+body {
+  height: 100%;
+  padding: 15%;
+  text-align: center;
+  background-color:#CAF0F8;
+}
+
+.sign-up-text {
+  margin-bottom: 2vh;
+}
+
+#greeting {
+  margin-top: 1vh;
+}
+
+.work-button {
+  font-family: 'Gaegu', cursive;
+  font-size: 25px;
+  padding-top: 0vh;
+  margin-bottom: 5vh;
+  width: 100%;
+  background-color: #FC6B6B;
+  color: black;
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  color: #FC6B6B;
+  font-size: 60px;
+}
+
+h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-top: 10%;
+  font-size: 23px;
+}
+
+.sign-up-btn {
+  max-width: 330px;
+}
+
+.form-label {
+  font-size: 25px;
+  margin-top: 1vh;
+}
+
+.form-item {
+  margin-bottom: 0.5vh;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  display: inline-block;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#submit {
+  margin-top: 4%;
+}
+
+#authDialog, #passwordDialog, #weakDialog, #invalidDialog, #emailDialog {
+  width: 65%;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#authConfirm, #passwordConfirm, #weakConfirm, #invalidConfirm, #emailConfirm {
+  border-radius: 10px;
+  background-color: #EBEBEB;
+  text-decoration: none;
+  color: black;
+}

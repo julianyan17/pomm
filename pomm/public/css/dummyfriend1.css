@@ -1,0 +1,94 @@
+* {
+    font-family: 'Gaegu', cursive;
+}
+body {
+    padding: 10%;
+}
+
+#pfp {
+    height: 45vw;
+    width: 45vw;
+    margin-bottom: 10%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#stats {
+    margin-bottom: 9%;
+}
+
+#charts {
+    padding: 2% 10%;
+    height: 60vw;
+}
+
+input {
+    visibility: hidden;
+}
+
+#toggle {
+    padding: 5% 10%;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #ef4040;
+    position: absolute;
+    top: 160px;
+    left: 210px;
+}
+
+/* #friend1-status {
+    background-color: #ef4040;
+} */
+
+.previous-button {
+    align-items: left;
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
+    margin-top: 8vh;
+    width: 20%;
+    /* background-color: #FC6B6B; */
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: left;
+}
+
+a {
+    align-items: left;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+.button {
+    margin: 3%;
+    margin-top: 4%;
+    margin-left: 6%;
+    margin-right: 6%;
+    display: inline-block;
+    padding: 0;
+  }
+
+  .previous {
+    text-align: left;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 16px;
+    border: 1px solid slategray;
+  }
+
+  h3 {
+    background-color: #EBEBEB;
+    padding: 5%;
+    padding-bottom: 0;
+    border-radius: 10px;
+}

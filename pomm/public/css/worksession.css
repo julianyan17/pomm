@@ -1,0 +1,126 @@
+body {
+    background-color: #CAF0F8;
+}
+
+#stopwatch {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 6%;
+}
+
+.pause-button {
+    font-size: 19px;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#start {
+    display: block;
+    background-color: #508D3C;
+    color: whitesmoke;
+}
+
+#pause {
+    display: none;
+    background-color: #FC6B6B;
+}
+
+#break {
+  display: none;
+  background-color: lightgoldenrodyellow;
+}
+
+.stop-button {
+    font-size: 20px;
+    margin-top: 3vh;
+    width: 80%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 40px;
+    width: 50vw;
+    height: 7vh;
+    padding-top: 1%;
+    background-color: whitesmoke;
+}
+  
+/* TO DO LIST STYLE - need to take some out*/
+/* Include the padding and border in an element's total width and height */
+  #list-bg {
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10%;
+  }
+ 
+  ul {
+    margin: 0px;
+    padding: 0;
+    max-height: 300px;
+    overflow: scroll;
+  }
+  
+  li {
+    border-radius: 15px;
+    margin-bottom: 5px;
+    text-decoration: none;
+  }
+  
+  /* Style the list items */
+  ul li {
+    position: relative;
+    padding: 8px 8px 8px 26px;
+    list-style-type: none;
+    background: #EBEBEB;
+    font-size: 18px;
+    transition: 0.2s;
+    width: 95%;
+  }
+
+  #info {
+      margin-top: 2%;
+  }
+
+#pauseDialog, #infoDialog, #backDialog, #deleteDialog {
+  width: 65%;
+  position: absolute;
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+#dialogButton, #infoDialogButton {
+  border-radius: 10px;
+  background-color: #EBEBEB;
+}
+
+#back {
+  text-align: left;
+  background-color: whitesmoke;
+  color: black;
+  font-size: 16px;
+  border: 1px solid slategray;
+  margin: 3%;
+  padding: 7px 15px;
+}
+
+#back-cancel, #back-confirm, #delete-cancel, #delete-confirm {
+  border-radius: 10px;
+  background-color: #EBEBEB;
+  text-decoration: none;
+  color: black;
+}
+
+#back-confirm {
+  /* padding-left: 2px;
+  padding-right: 2px; */
+  border: 1px solid;
+  padding: 4px 6px;
+  border-width: 2px;
+  border-style: outset;
+}
