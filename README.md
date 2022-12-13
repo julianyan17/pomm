@@ -1,8 +1,8 @@
 Summary: This program creates a mobile web application that implements the Flowmodoro technique in a task manager with a reward incentive. 
 
-Languages: Javascript, CSS, HMTL
-Technologies: Firebase, Github, Heroku
-Link: https://pomm-task-manager.herokuapp.com/
+Languages: Javascript, CSS, HMTL  
+Technologies: Firebase, Github, Heroku  
+Link: https://pomm-task-manager.herokuapp.com/  
 
 Citations
 
